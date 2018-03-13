@@ -1,0 +1,177 @@
+*{margin:0; padding:0;}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.galeria{
+    text-align: center;
+    position: relative;
+    align-content: center;
+    display: flex;
+    padding-bottom: 70px;
+    float: left;
+    max-width: 100%;
+    margin-left: 100px;
+
+}
+
+.titulo h2{
+    font-style: 300;
+    font-weight: 300;
+    margin-top: 100px;
+
+} 
+
+.galeria img{
+    width: 150px;
+}
+
+
+.izquierda{
+    padding-top: 100px;
+    float: left;
+    padding-right: 50px;
+}
+
+
+.izquierda img{
+    width: 350px;
+}
+
+.centro{
+    padding-top: 100px;
+    float: left;
+}
+
+.centro img{
+    width: 350px;
+}
+
+.derecha img{
+    width: 350px;
+}
+
+.derecha{
+    padding-top: 100px;
+    float: left;
+    padding-left: 50px;
+}
+
+.trabajo1{
+    color: #292929;
+    text-align: left;
+    box-shadow: #292929;
+    box-sizing: border-box;
+    box-sizing: 300px 600;
+    box-shadow: 0px 2px 4px#292929;
+    text-decoration: none;
+    
+}
+
+.trabajo2{
+    margin-top: 50px;
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo3{
+    margin-top: 50px;
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo4{
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo5{
+    margin-top: 50px;
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo6{
+    margin-top: 50px;
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo7{
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo8{
+    margin-top: 50px;
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.trabajo9{
+    margin-top: 50px;
+    text-align: left;
+    color: #292929;
+    box-shadow: 0px 2px 4px #292929;
+}
+
+.galeria h3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.galeria p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 263px;
+    width: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #292929c4;
+  }
+  
+  .container:hover .overlay {
+    opacity: 5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    font-style: 300;
+    font-family: 'roboto';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }

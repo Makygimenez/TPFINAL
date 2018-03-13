@@ -1,0 +1,35 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.biografia{
+    max-width: 100%;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.izquierda{
+    float: left;
+    margin-left: 200px;
+    margin-right: 60px;
+    
+}
+.izquierda img{
+    width: 270px;
+
+}
+.derecha{
+    max-width: 400px;
+    float: left;
+    margin-bottom: 260px;
+}
+
+.derecha p{
+    font-size: 13px;
+    padding-top: 30px;
+    font-style: 300;
+}
+
+.derecha h2{
+    font-style: 400;
+}
